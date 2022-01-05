@@ -28,7 +28,7 @@ Before the demo client can be connected to the platform, the endpoint and the UR
 
 In the file registration.csv, the fields *ID*, *NAME*, *endpoint ID* and the field *lwm2m server URI* must be changed for each entry.
  
-![Registration](./img/registration.png)
+![Registration](./img/registration.PNG)
 
 The fields *ID*, *NAME*, *endpoint ID* indicate the LWM2M client's "endpoint ID" to allow the LwM2M bootstrap to provision the bootstrap information for the LWM2M client. The endpoint ID has be **unique** across all tenants and must have the same value as the ID.
 
@@ -55,11 +55,11 @@ Cumulocity allows any LWM2M objects to be easily interfaced with the platform. C
 
 Upload the xml resource files to Cumulocity in the **Device Management -> Device types -> Device protocols** tab.
 
-![Device protocols](./img/device_protocols.png)
+![Device protocols](./img/device_protocols.PNG)
 
 The leshan demo client sends a random temperature measurement at 3303/5700. To add the functionality, open the 3303 protocol and turn on **Send measurement** for the Sensor Value. Make sure to enable on Auto observe for at least one functionality per protocol.
 
-![Send measurements](./img/send_measurement.png)
+![Send measurements](./img/send_measurement.PNG)
 
 The LWM2M objects 3 (device) and 6 (location) don't need a mapping since the objects are supported out-of-the-box.
 
@@ -76,7 +76,7 @@ read /6
 
 To register a LWM2M device in Cumulocity IoT, upload a CSV file with registration data in the bulk registration dialog in **Device Management -> Devices -> Registration -> Register device -> Bulk device**.
 
-![Bulk registration](./img/bulk_registration.png)
+![Bulk registration](./img/bulk_registration.PNG)
 
 Start the demo clients with 
 
