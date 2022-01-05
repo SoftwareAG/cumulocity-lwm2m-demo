@@ -51,13 +51,15 @@ services:
 ## Upload device protocols to Cumulocity IoT
 
 The leshan demo client uses the following LWM2M objects: 3 (device), 6 (location), 3303 (temperature sensor), 3441 (lwm2m test object).
-Cumulocity allows any LWM2M objects to be easily interfaced with the platform. Cumulocity also supports out-of-the-box integration for the standard LWM2M protocols 3(device), 4(connectivity), 5(firmware) and 6(location).
+
+Cumulocity allows any LWM2M objects to be easily interfaced with the platform.
+Cumulocity also supports out-of-the-box integration for the standard LWM2M protocols 3(device), 4(connectivity), 5(firmware) and 6(location).
 
 Upload the xml resource files to Cumulocity in the **Device Management -> Device types -> Device protocols** tab.
 
 ![Device protocols](./img/device_protocols.PNG)
 
-The leshan demo client sends a random temperature measurement at 3303/5700. To add the functionality, open the 3303 protocol and turn on **Send measurement** for the Sensor Value. Make sure to enable on Auto observe for at least one functionality per protocol.
+The leshan demo client sends a random temperature measurement at 3303/5700. To add the functionality, open the 3303 protocol and turn on **Send measurement** for the Sensor Value. Make sure to enable on *Auto observe* for at least one functionality per protocol.
 
 ![Send measurements](./img/send_measurement.PNG)
 
@@ -65,8 +67,8 @@ The LWM2M objects 3 (device) and 6 (location) don't need a mapping since the obj
 
 ## Define LWM2M post-registration actions
 LWM2M shell commands can be performed in the Shell tab of each device. It is also possible to execute some common operations when a device sends a full registration request.
-In this example the LWM2M post operations will be used the read the current device info (3) and location (6) from the device, if the devices sens a registration request.
-Therefor, go to the tab **Device Management -> Device types -> LWM2M post-operations** and add the following:
+In this example the LWM2M post operations will be used the read the current device info (3) and location (6) from the device, if the devices sends a registration request.
+To do this go to the tab **Device Management -> Device types -> LWM2M post-operations** and add the following:
  ```
 read /3
 read /6
