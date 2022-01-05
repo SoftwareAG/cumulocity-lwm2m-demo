@@ -1,0 +1,6 @@
+ID;NAME;endpoint id;CREDENTIALS;lwm2m server uri;IDTYPE;TYPE;SHELL;com_cumulocity_model_Agent;securityMode
+scf_lwm2m_test;scf_lwm2m_test;scf_lwm2m_test;dummyCredentials@test01;coap://lwm2m.eu-latest.cumulocity.com:5783;c8y_Id;c8y_lwm2m;1;1;NO_SEC
+scf_lwm2m_test2;scf_lwm2m_test2;scf_lwm2m_test2;dummyCredentials@test01;coap://lwm2m.eu-latest.cumulocity.com:5783;c8y_Id;c8y_lwm2m;1;1;NO_SEC
+scf_lwm2m_test3;scf_lwm2m_test3;scf_lwm2m_test3;dummyCredentials@test01;coap://lwm2m.eu-latest.cumulocity.com:5783;c8y_Id;c8y_lwm2m;1;1;NO_SEC
+scf_lwm2m_test4;scf_lwm2m_test4;scf_lwm2m_test4;dummyCredentials@test01;coap://lwm2m.eu-latest.cumulocity.com:5783;c8y_Id;c8y_lwm2m;1;1;NO_SEC
+scf_lwm2m_test5;scf_lwm2m_test5;scf_lwm2m_test5;dummyCredentials@test01;coap://lwm2m.eu-latest.cumulocity.com:5783;c8y_Id;c8y_lwm2m;1;1;NO_SEC

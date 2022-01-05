@@ -1,0 +1,32 @@
+version: "4.3"
+services:
+  lwm2m_client_1:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "scf_lwm2m_test"
+        URI: "lwm2m.eu-latest.cumulocity.com"
+  lwm2m_client_2:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "scf_lwm2m_test2"
+        URI: "lwm2m.eu-latest.cumulocity.com"
+  lwm2m_client_3:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "scf_lwm2m_test3"
+        URI: "lwm2m.eu-latest.cumulocity.com"
+  lwm2m_client_4:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "scf_lwm2m_test4"
+        URI: "lwm2m.eu-latest.cumulocity.com"
+  lwm2m_client_5:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "scf_lwm2m_test5"
+        URI: "lwm2m.eu-latest.cumulocity.com"
