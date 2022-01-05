@@ -16,9 +16,11 @@ ARG URI
 ENV URI ${URI}
 ARG ENDPOINT
 ENV ENDPOINT ${ENDPOINT}
+ARG INIT_POS
+ENV INIT_POS ${INIT_POS}
 
 ### 4. RUN client
 ARG DEMO_CLIENT=/leshan-client-demo.jar
 ENV DEMO_CLIENT=${DEMO_CLIENT}
 
-CMD /usr/bin/java -jar ${DEMO_CLIENT} -u ${URI} -n ${ENDPOINT} -b
+CMD /usr/bin/java -jar ${DEMO_CLIENT} -u ${URI} -n ${ENDPOINT} -b -pos ${INIT_POS}

@@ -63,6 +63,15 @@ The leshan demo client sends a random temperature measurement at 3303/5700. To a
 
 The LWM2M objects 3 (device) and 6 (location) don't need a mapping since the objects are supported out-of-the-box.
 
+## Define LWM2M post-registration actions
+LWM2M shell commands can be performed in the Shell tab of each device. It is also possible to execute some common operations when a device sends a full registration request.
+In this example the LWM2M post operations will be used the read the current device info (3) and location (6) from the device, if the devices sens a registration request.
+Therefor, go to the tab **Device Management -> Device types -> LWM2M post-operations** and add the following:
+ ```
+read /3
+read /6
+ ```
+
 ## Device registration
 
 To register a LWM2M device in Cumulocity IoT, upload a CSV file with registration data in the bulk registration dialog in **Device Management -> Devices -> Registration -> Register device -> Bulk device**.

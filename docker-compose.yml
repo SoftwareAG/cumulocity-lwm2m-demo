@@ -6,27 +6,32 @@ services:
       args:
         ENDPOINT: "scf_lwm2m_test"
         URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "49.81428289040106:8.637144308045611"
   lwm2m_client_2:
     build:
       context: leshan-demo-client
       args:
         ENDPOINT: "scf_lwm2m_test2"
         URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "53.55402040587793:9.985161574278209"
   lwm2m_client_3:
     build:
       context: leshan-demo-client
       args:
         ENDPOINT: "scf_lwm2m_test3"
         URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "52.50164997210705:13.313330387703166"
   lwm2m_client_4:
     build:
       context: leshan-demo-client
       args:
         ENDPOINT: "scf_lwm2m_test4"
         URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "51.23545182735209:6.796291776087323"
   lwm2m_client_5:
     build:
       context: leshan-demo-client
       args:
         ENDPOINT: "scf_lwm2m_test5"
         URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "48.70860780026238:9.171683659439255"
