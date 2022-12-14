@@ -1,4 +1,4 @@
-### 1. Get Linux
+### 1. Get Linux test
 FROM alpine:latest
 
 ### 2. Get Java via the package manager
