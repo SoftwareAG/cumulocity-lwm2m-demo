@@ -42,8 +42,8 @@ services:
     build:
       context: leshan-demo-client
       args:
-        ENDPOINT: "**lwm2m_device01**" 
-        URI: "lwm2m.**eu-latest.cumulocity.com**"
+        ENDPOINT: "lwm2m_device01" 
+        URI: "lwm2m.eu-latest.cumulocity.com"
 ...
 ```
 
