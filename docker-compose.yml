@@ -1,0 +1,39 @@
+version: "4.3"
+services:
+  lwm2m_client_1:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "lwm2m_device01"
+        URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "49.81428289040106:8.637144308045611"
+  lwm2m_client_2:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "lwm2m_device02"
+        URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "53.55402040587793:9.985161574278209"
+  lwm2m_client_3:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "lwm2m_device03"
+        URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "52.50164997210705:13.313330387703166"
+  lwm2m_client_4:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "lwm2m_device04"
+        URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "51.23545182735209:6.796291776087323"
+  lwm2m_client_5:
+    build:
+      context: leshan-demo-client
+      args:
+        ENDPOINT: "lwm2m_device05"
+        URI: "lwm2m.eu-latest.cumulocity.com"
+        INIT_POS: "48.70860780026238:9.171683659439255"
+ 
+ 
