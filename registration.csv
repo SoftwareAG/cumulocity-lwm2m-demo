@@ -1,0 +1,6 @@
+endpoint id;type;securityMode;lwm2m server uri
+lwm2m_device01;c8y_lwm2m;NO_SEC;coap://lwm2m.eu-latest.cumulocity.com:5783
+lwm2m_device02;c8y_lwm2m;NO_SEC;coap://lwm2m.eu-latest.cumulocity.com:5783
+lwm2m_device03;c8y_lwm2m;NO_SEC;coap://lwm2m.eu-latest.cumulocity.com:5783
+lwm2m_device04;c8y_lwm2m;NO_SEC;coap://lwm2m.eu-latest.cumulocity.com:5783
+lwm2m_device05;c8y_lwm2m;NO_SEC;coap://lwm2m.eu-latest.cumulocity.com:5783
