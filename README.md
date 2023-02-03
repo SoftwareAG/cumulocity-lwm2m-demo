@@ -86,7 +86,7 @@ To do this go to the tab **Device Management -> Device types -> LWM2M post-opera
 read /3
 read /6
  ```
-![Pot-operations](./img/post_operations.PNG)
+![Pot-operations](./img/post_operations.PNG | width=100)
 
 ## Device registration
 
