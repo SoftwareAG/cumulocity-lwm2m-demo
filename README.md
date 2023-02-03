@@ -36,7 +36,7 @@ In the registration.csv file, the fields for endpoint ID and lwm2m server URI mu
 coap://lwm2m.**eu-latest.cumulocity.com**:5783
 
 Your individual tenant prefix is not required since there is only one LwM2M server for each public cloud instance. 
-Please note that this registration file is only applicable for the dedicated LwM2M bulk registration process that has been introduced with version 10.15. If you are still using an older version of Cumulocity IoT, use the template for the general bulk registration you can find in the [document](https://cumulocity.com/guides/10.14.0/users-guide/device-management/#creds-upload).
+Please note that this registration file is only applicable for the dedicated LwM2M bulk registration process that has been introduced with version 10.15. If you are still using an older version of Cumulocity IoT, use the template for the general bulk registration you can find in the [documentation](https://cumulocity.com/guides/10.14.0/users-guide/device-management/#creds-upload).
 
 
 ![Registration](./img/registration.PNG)
